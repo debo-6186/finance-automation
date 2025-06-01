@@ -1,0 +1,37 @@
+# Google Agent Development Kit and core dependencies
+google-adk>=1.1.1
+litellm>=1.30.0
+
+# FastAPI for A2A server endpoints
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# HTTP client for A2A communication
+httpx>=0.27.0
+
+# Data validation and parsing
+pydantic>=2.6.0
+
+# PDF processing for stock statements
+PyPDF2>=3.0.1
+pdfplumber>=0.10.0
+
+# Financial data APIs
+yfinance>=0.2.18
+alpha-vantage>=2.3.1
+anthropic>=0.20.0
+
+# Environment management
+python-dotenv>=1.0.1
+
+# Additional utilities
+numpy>=1.24.0
+pandas>=2.0.0
+datetime
+
+# Development and testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
+
+# Logging
+structlog>=23.2.0 

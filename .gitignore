@@ -1,0 +1,47 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+finance_automation/  # Assuming 'finance_automation' is the name of your venv if created inside project
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Service Account Keys (if stored locally and named specifically)
+# It's better to list specific key names if you have a pattern,
+# or ensure they are NOT in the project directory if sensitive.
+# Example: service-account-key.json
+# *.json # Be careful with a generic *.json if you have other legitimate json files to commit
+
+warm-rookery-461602-i8-b7118c914848.json # Example service account key
+credentials/ # Ignore the entire credentials directory
+
+# Data files (if your data/ directory contains sensitive or large PDFs)
+# data/portfolio_statement.pdf # Example, uncomment if you don't want to commit sample/actual data
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/ 
